@@ -20,7 +20,7 @@ const App = () => {
   }, [])
 
   return (
-    <div className="p-10">
+    <div className="p-4">
       {isLoading ? (<SkeletonCard />) : (<Card  title={data.title} description={data.description} image={data.image} />) }
     </div>
   )
