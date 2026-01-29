@@ -2,7 +2,7 @@ import React from 'react'
 
 const SkeletonCard = () => {
   return (
-     <div className="w-[600px] p-4 border rounded-lg animate-pulse">
+     <div className="w-full max-w-[600px] mx-auto p-4 border rounded-lg animate-pulse">
       
       {/* Image placeholder */}
       <div className="h-40 bg-gray-300 rounded mb-4"></div>
